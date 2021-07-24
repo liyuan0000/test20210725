@@ -26,8 +26,7 @@ import com.atguigu.crud.dao.EmployeeMapper;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations={"classpath:applicationContext.xml"})
 public class MapperTest {
-
-	//liyuan
+	
 	@Autowired
 	DepartmentMapper departmentMapper;
 	
