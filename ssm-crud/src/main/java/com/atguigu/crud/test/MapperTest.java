@@ -26,7 +26,7 @@ import com.atguigu.crud.dao.EmployeeMapper;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations={"classpath:applicationContext.xml"})
 public class MapperTest {
-	
+
 	@Autowired
 	DepartmentMapper departmentMapper;
 	
@@ -65,6 +65,8 @@ public class MapperTest {
 //			mapper.insertSelective(new Employee(null,uid, "M", uid+"@atguigu.com", 1));
 //		}
 //		System.out.println("批量完成");
+
+		System.out.println("111");
 		
 	}
 
